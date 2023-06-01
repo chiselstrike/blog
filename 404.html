@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<p id="path"></p>
-
-<script>
-document.getElementById("demo").innerHTML = 
-"The full URL of this page is:<br>" + window.location.href;
-</script>
-
-</body>
+  <head>
+    <script>
+      window.location.href = "https://blog.turso.tech/" + window.location.pathname + window.location.search;
+    </script>
+  </head>
+  <body>
+    <p>This page has moved. Redirecting...</p>
+  </body>
 </html>
 
